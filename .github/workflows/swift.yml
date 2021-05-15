@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: xcodebuild -scheme SwiftUIMenuBar build
     - name: Run tests
-      run: xcodebuild -scheme SwiftUIMenuBar test 
+      run: xcodebuild -scheme SwiftUIMenuBar test-without-building 
