@@ -12,11 +12,35 @@
 		459A279523AA910B003D50EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459A279423AA910B003D50EC /* Assets.xcassets */; };
 		459A279823AA910B003D50EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459A279723AA910B003D50EC /* Preview Assets.xcassets */; };
 		459A279B23AA910B003D50EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459A279923AA910B003D50EC /* Main.storyboard */; };
+		4B4C4FAE26585535005174B3 /* TimeLineItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FAD26585534005174B3 /* TimeLineItemDao.swift */; };
+		4B4C4FB426585722005174B3 /* SqliteDatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FB326585721005174B3 /* SqliteDatabaseTest.swift */; };
+		4B4C4FBA26585BF0005174B3 /* SqliteDatabaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FB926585BF0005174B3 /* SqliteDatabaseFactory.swift */; };
+		4B4C4FC726585D28005174B3 /* TimeLineItemRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FC626585D28005174B3 /* TimeLineItemRecord.swift */; };
+		4B4C4FCD26585E33005174B3 /* TimeLineItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FCC26585E33005174B3 /* TimeLineItemType.swift */; };
+		4B4C4FD326586309005174B3 /* TimeLineItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FD226586309005174B3 /* TimeLineItemTest.swift */; };
+		4B4C4FDA26590762005174B3 /* TimeLineItemDaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C4FD926590762005174B3 /* TimeLineItemDaoTest.swift */; };
+		4B523FB5265D5B32006B30F9 /* KeyValueDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B523FB4265D5B32006B30F9 /* KeyValueDao.swift */; };
+		4B523FBC265D66BF006B30F9 /* KeyValueDaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B523FBB265D66BF006B30F9 /* KeyValueDaoTest.swift */; };
+		4B6ED2E12663A56200B17E50 /* ScreenTimeApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED2E02663A56200B17E50 /* ScreenTimeApplicationService.swift */; };
+		4B6ED2EB2663E2CA00B17E50 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED2EA2663E2CA00B17E50 /* NotificationDelegate.swift */; };
+		4B6ED2F12663EF9200B17E50 /* ScreenTimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED2F02663EF9200B17E50 /* ScreenTimeType.swift */; };
+		4B6ED2F5266815DD00B17E50 /* StatisticsApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED2F4266815DD00B17E50 /* StatisticsApplicationService.swift */; };
+		4B6ED2FA2668163700B17E50 /* WorkingHoursLeftCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED2F92668163700B17E50 /* WorkingHoursLeftCalculator.swift */; };
+		4B6ED3072668179F00B17E50 /* WorkdayCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED3062668179F00B17E50 /* WorkdayCalculator.swift */; };
+		4B6ED30B266817CB00B17E50 /* WorkdayCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED30A266817CB00B17E50 /* WorkdayCalculatorTest.swift */; };
+		4B6ED311266817E000B17E50 /* WorkingHoursLeftCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ED310266817E000B17E50 /* WorkingHoursLeftCalculatorTest.swift */; };
+		4B7FB1E026504D2000B0C20B /* SqliteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FB1DF26504D2000B0C20B /* SqliteDatabase.swift */; };
+		4B7FB1E726504DDE00B0C20B /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7FB1E626504DDE00B0C20B /* SQLite */; };
 		4B84544C264FBCDD00A2D994 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84544B264FBCDD00A2D994 /* AppState.swift */; };
 		4B84544F264FBDB000A2D994 /* MouseMoveInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84544E264FBDB000A2D994 /* MouseMoveInteractor.swift */; };
 		4B845464264FDCFC00A2D994 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4B845463264FDCFC00A2D994 /* Swinject */; };
 		4B845473264FE44C00A2D994 /* SwiftUIMenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B845472264FE44C00A2D994 /* SwiftUIMenuBarTests.swift */; };
 		4B84547D264FE49500A2D994 /* AppStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84547C264FE49500A2D994 /* AppStateTest.swift */; };
+		4BBA719B265AB60F00B9A954 /* ScreenTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA719A265AB60F00B9A954 /* ScreenTime.swift */; };
+		4BBA71A3265AB64F00B9A954 /* ScreenTimeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA71A2265AB64F00B9A954 /* ScreenTimeSession.swift */; };
+		4BBA71A7265AD09E00B9A954 /* ScreenTimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA71A6265AD09E00B9A954 /* ScreenTimeTest.swift */; };
+		4BBA71B0265ADF1F00B9A954 /* ScreenTimeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA71AF265ADF1F00B9A954 /* ScreenTimeRepository.swift */; };
+		4BBA71B5265ADF9400B9A954 /* ScreenTimeRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA71B4265ADF9400B9A954 /* ScreenTimeRepositoryTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +62,35 @@
 		459A279A23AA910B003D50EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		459A279C23AA910B003D50EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459A279D23AA910B003D50EC /* SwiftUIMenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMenuBar.entitlements; sourceTree = "<group>"; };
+		4B4C4FAD26585534005174B3 /* TimeLineItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineItemDao.swift; sourceTree = "<group>"; };
+		4B4C4FB326585721005174B3 /* SqliteDatabaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDatabaseTest.swift; sourceTree = "<group>"; };
+		4B4C4FB926585BF0005174B3 /* SqliteDatabaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDatabaseFactory.swift; sourceTree = "<group>"; };
+		4B4C4FC626585D28005174B3 /* TimeLineItemRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineItemRecord.swift; sourceTree = "<group>"; };
+		4B4C4FCC26585E33005174B3 /* TimeLineItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineItemType.swift; sourceTree = "<group>"; };
+		4B4C4FD226586309005174B3 /* TimeLineItemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineItemTest.swift; sourceTree = "<group>"; };
+		4B4C4FD926590762005174B3 /* TimeLineItemDaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineItemDaoTest.swift; sourceTree = "<group>"; };
+		4B523FB4265D5B32006B30F9 /* KeyValueDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueDao.swift; sourceTree = "<group>"; };
+		4B523FBB265D66BF006B30F9 /* KeyValueDaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueDaoTest.swift; sourceTree = "<group>"; };
+		4B6ED2E02663A56200B17E50 /* ScreenTimeApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeApplicationService.swift; sourceTree = "<group>"; };
+		4B6ED2EA2663E2CA00B17E50 /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		4B6ED2F02663EF9200B17E50 /* ScreenTimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeType.swift; sourceTree = "<group>"; };
+		4B6ED2F4266815DD00B17E50 /* StatisticsApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsApplicationService.swift; sourceTree = "<group>"; };
+		4B6ED2F92668163700B17E50 /* WorkingHoursLeftCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHoursLeftCalculator.swift; sourceTree = "<group>"; };
+		4B6ED3062668179F00B17E50 /* WorkdayCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkdayCalculator.swift; sourceTree = "<group>"; };
+		4B6ED30A266817CB00B17E50 /* WorkdayCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkdayCalculatorTest.swift; sourceTree = "<group>"; };
+		4B6ED310266817E000B17E50 /* WorkingHoursLeftCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHoursLeftCalculatorTest.swift; sourceTree = "<group>"; };
+		4B7FB1DF26504D2000B0C20B /* SqliteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDatabase.swift; sourceTree = "<group>"; };
 		4B84544B264FBCDD00A2D994 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		4B84544E264FBDB000A2D994 /* MouseMoveInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMoveInteractor.swift; sourceTree = "<group>"; };
 		4B845470264FE44C00A2D994 /* SwiftUIMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B845472264FE44C00A2D994 /* SwiftUIMenuBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMenuBarTests.swift; sourceTree = "<group>"; };
 		4B845474264FE44C00A2D994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B84547C264FE49500A2D994 /* AppStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateTest.swift; sourceTree = "<group>"; };
+		4BBA719A265AB60F00B9A954 /* ScreenTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTime.swift; sourceTree = "<group>"; };
+		4BBA71A2265AB64F00B9A954 /* ScreenTimeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeSession.swift; sourceTree = "<group>"; };
+		4BBA71A6265AD09E00B9A954 /* ScreenTimeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeTest.swift; sourceTree = "<group>"; };
+		4BBA71AF265ADF1F00B9A954 /* ScreenTimeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeRepository.swift; sourceTree = "<group>"; };
+		4BBA71B4265ADF9400B9A954 /* ScreenTimeRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeRepositoryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7FB1E726504DDE00B0C20B /* SQLite in Frameworks */,
 				4B845464264FDCFC00A2D994 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +134,9 @@
 		459A278F23AA910B003D50EC /* SwiftUIMenuBar */ = {
 			isa = PBXGroup;
 			children = (
+				4B6ED2DF2663A54D00B17E50 /* application */,
+				4B4C4FC426585D06005174B3 /* domain */,
+				4B7FB1DD26504CF800B0C20B /* infrastructure */,
 				4B84545D264FCE0E00A2D994 /* system */,
 				4B845452264FBE1A00A2D994 /* interactors */,
 				459A279023AA910B003D50EC /* AppDelegate.swift */,
@@ -108,6 +159,138 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4B4C4FB1265856EA005174B3 /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C4FB2265856FA005174B3 /* persistence */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		4B4C4FB2265856FA005174B3 /* persistence */ = {
+			isa = PBXGroup;
+			children = (
+				4B523FBA265D66B0006B30F9 /* keyValue */,
+				4BBA71B3265ADF6600B9A954 /* screenTime */,
+				4B4C4FB326585721005174B3 /* SqliteDatabaseTest.swift */,
+			);
+			path = persistence;
+			sourceTree = "<group>";
+		};
+		4B4C4FBD26585CA2005174B3 /* timeLineItem */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C4FC626585D28005174B3 /* TimeLineItemRecord.swift */,
+				4B4C4FCC26585E33005174B3 /* TimeLineItemType.swift */,
+				4B4C4FAD26585534005174B3 /* TimeLineItemDao.swift */,
+			);
+			path = timeLineItem;
+			sourceTree = "<group>";
+		};
+		4B4C4FC426585D06005174B3 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA71A0265AB61A00B9A954 /* entity */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		4B4C4FD0265862E0005174B3 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED2FF2668165700B17E50 /* statistics */,
+				4BBA71A6265AD09E00B9A954 /* ScreenTimeTest.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		4B4C4FD82659073B005174B3 /* timeLineItem */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C4FD226586309005174B3 /* TimeLineItemTest.swift */,
+				4B4C4FD926590762005174B3 /* TimeLineItemDaoTest.swift */,
+			);
+			path = timeLineItem;
+			sourceTree = "<group>";
+		};
+		4B523FB3265D5B1C006B30F9 /* keyValue */ = {
+			isa = PBXGroup;
+			children = (
+				4B523FB4265D5B32006B30F9 /* KeyValueDao.swift */,
+			);
+			path = keyValue;
+			sourceTree = "<group>";
+		};
+		4B523FBA265D66B0006B30F9 /* keyValue */ = {
+			isa = PBXGroup;
+			children = (
+				4B523FBB265D66BF006B30F9 /* KeyValueDaoTest.swift */,
+			);
+			path = keyValue;
+			sourceTree = "<group>";
+		};
+		4B6ED2DF2663A54D00B17E50 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED2E02663A56200B17E50 /* ScreenTimeApplicationService.swift */,
+				4B6ED2F4266815DD00B17E50 /* StatisticsApplicationService.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		4B6ED2E62663A59E00B17E50 /* application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		4B6ED2E92663E2BB00B17E50 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED2EA2663E2CA00B17E50 /* NotificationDelegate.swift */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
+		4B6ED2F82668160F00B17E50 /* statistics */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED2F92668163700B17E50 /* WorkingHoursLeftCalculator.swift */,
+				4B6ED3062668179F00B17E50 /* WorkdayCalculator.swift */,
+			);
+			path = statistics;
+			sourceTree = "<group>";
+		};
+		4B6ED2FF2668165700B17E50 /* statistics */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED30A266817CB00B17E50 /* WorkdayCalculatorTest.swift */,
+				4B6ED310266817E000B17E50 /* WorkingHoursLeftCalculatorTest.swift */,
+			);
+			path = statistics;
+			sourceTree = "<group>";
+		};
+		4B7FB1DD26504CF800B0C20B /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED2E92663E2BB00B17E50 /* notification */,
+				4B7FB1DE26504D0000B0C20B /* persistence */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		4B7FB1DE26504D0000B0C20B /* persistence */ = {
+			isa = PBXGroup;
+			children = (
+				4B523FB3265D5B1C006B30F9 /* keyValue */,
+				4BBA71AE265ADF0100B9A954 /* screenTime */,
+				4B7FB1DF26504D2000B0C20B /* SqliteDatabase.swift */,
+				4B4C4FB926585BF0005174B3 /* SqliteDatabaseFactory.swift */,
+			);
+			path = persistence;
+			sourceTree = "<group>";
+		};
 		4B845452264FBE1A00A2D994 /* interactors */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,11 +309,51 @@
 		4B845471264FE44C00A2D994 /* SwiftUIMenuBarTests */ = {
 			isa = PBXGroup;
 			children = (
+				4B6ED2E62663A59E00B17E50 /* application */,
+				4B4C4FD0265862E0005174B3 /* domain */,
+				4B4C4FB1265856EA005174B3 /* infrastructure */,
 				4B845472264FE44C00A2D994 /* SwiftUIMenuBarTests.swift */,
 				4B845474264FE44C00A2D994 /* Info.plist */,
 				4B84547C264FE49500A2D994 /* AppStateTest.swift */,
 			);
 			path = SwiftUIMenuBarTests;
+			sourceTree = "<group>";
+		};
+		4BBA71A0265AB61A00B9A954 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				4B6ED2F82668160F00B17E50 /* statistics */,
+				4BBA71A1265AB62B00B9A954 /* screenTime */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		4BBA71A1265AB62B00B9A954 /* screenTime */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA719A265AB60F00B9A954 /* ScreenTime.swift */,
+				4BBA71A2265AB64F00B9A954 /* ScreenTimeSession.swift */,
+				4B6ED2F02663EF9200B17E50 /* ScreenTimeType.swift */,
+			);
+			path = screenTime;
+			sourceTree = "<group>";
+		};
+		4BBA71AE265ADF0100B9A954 /* screenTime */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C4FBD26585CA2005174B3 /* timeLineItem */,
+				4BBA71AF265ADF1F00B9A954 /* ScreenTimeRepository.swift */,
+			);
+			path = screenTime;
+			sourceTree = "<group>";
+		};
+		4BBA71B3265ADF6600B9A954 /* screenTime */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C4FD82659073B005174B3 /* timeLineItem */,
+				4BBA71B4265ADF9400B9A954 /* ScreenTimeRepositoryTest.swift */,
+			);
+			path = screenTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +374,7 @@
 			name = SwiftUIMenuBar;
 			packageProductDependencies = (
 				4B845463264FDCFC00A2D994 /* Swinject */,
+				4B7FB1E626504DDE00B0C20B /* SQLite */,
 			);
 			productName = SwiftUIMenuBar;
 			productReference = 459A278D23AA910B003D50EC /* SwiftUIMenuBar.app */;
@@ -181,7 +405,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Aaron Wright";
 				TargetAttributes = {
 					459A278C23AA910B003D50EC = {
@@ -204,6 +428,7 @@
 			mainGroup = 459A278423AA910A003D50EC;
 			packageReferences = (
 				4B845462264FDCFC00A2D994 /* XCRemoteSwiftPackageReference "Swinject" */,
+				4B7FB1E526504DDE00B0C20B /* XCRemoteSwiftPackageReference "SQLite" */,
 			);
 			productRefGroup = 459A278E23AA910B003D50EC /* Products */;
 			projectDirPath = "";
@@ -240,9 +465,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6ED3072668179F00B17E50 /* WorkdayCalculator.swift in Sources */,
+				4B6ED2F12663EF9200B17E50 /* ScreenTimeType.swift in Sources */,
+				4BBA71B0265ADF1F00B9A954 /* ScreenTimeRepository.swift in Sources */,
+				4B6ED2F5266815DD00B17E50 /* StatisticsApplicationService.swift in Sources */,
+				4B4C4FAE26585535005174B3 /* TimeLineItemDao.swift in Sources */,
 				4B84544C264FBCDD00A2D994 /* AppState.swift in Sources */,
+				4B6ED2E12663A56200B17E50 /* ScreenTimeApplicationService.swift in Sources */,
+				4BBA71A3265AB64F00B9A954 /* ScreenTimeSession.swift in Sources */,
+				4BBA719B265AB60F00B9A954 /* ScreenTime.swift in Sources */,
+				4B4C4FC726585D28005174B3 /* TimeLineItemRecord.swift in Sources */,
+				4B523FB5265D5B32006B30F9 /* KeyValueDao.swift in Sources */,
+				4B6ED2FA2668163700B17E50 /* WorkingHoursLeftCalculator.swift in Sources */,
 				459A279323AA910B003D50EC /* ContentView.swift in Sources */,
+				4B7FB1E026504D2000B0C20B /* SqliteDatabase.swift in Sources */,
+				4B6ED2EB2663E2CA00B17E50 /* NotificationDelegate.swift in Sources */,
 				459A279123AA910B003D50EC /* AppDelegate.swift in Sources */,
+				4B4C4FCD26585E33005174B3 /* TimeLineItemType.swift in Sources */,
+				4B4C4FBA26585BF0005174B3 /* SqliteDatabaseFactory.swift in Sources */,
 				4B84544F264FBDB000A2D994 /* MouseMoveInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +491,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6ED311266817E000B17E50 /* WorkingHoursLeftCalculatorTest.swift in Sources */,
+				4B4C4FB426585722005174B3 /* SqliteDatabaseTest.swift in Sources */,
+				4B4C4FDA26590762005174B3 /* TimeLineItemDaoTest.swift in Sources */,
+				4B523FBC265D66BF006B30F9 /* KeyValueDaoTest.swift in Sources */,
+				4BBA71A7265AD09E00B9A954 /* ScreenTimeTest.swift in Sources */,
+				4B6ED30B266817CB00B17E50 /* WorkdayCalculatorTest.swift in Sources */,
 				4B845473264FE44C00A2D994 /* SwiftUIMenuBarTests.swift in Sources */,
+				4BBA71B5265ADF9400B9A954 /* ScreenTimeRepositoryTest.swift in Sources */,
 				4B84547D264FE49500A2D994 /* AppStateTest.swift in Sources */,
+				4B4C4FD326586309005174B3 /* TimeLineItemTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +552,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -364,6 +613,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -396,7 +646,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SwiftUIMenuBar/SwiftUIMenuBar.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMenuBar/Preview Content\"";
@@ -421,7 +671,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SwiftUIMenuBar/SwiftUIMenuBar.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMenuBar/Preview Content\"";
@@ -516,6 +766,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4B7FB1E526504DDE00B0C20B /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.2;
+			};
+		};
 		4B845462264FDCFC00A2D994 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
@@ -527,6 +785,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4B7FB1E626504DDE00B0C20B /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B7FB1E526504DDE00B0C20B /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
 		4B845463264FDCFC00A2D994 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4B845462264FDCFC00A2D994 /* XCRemoteSwiftPackageReference "Swinject" */;

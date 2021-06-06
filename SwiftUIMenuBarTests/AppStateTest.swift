@@ -17,9 +17,5 @@ class AppStateTest: XCTestCase {
         super.setUp()
         appState = AppState()
     }
-    
-    func test_initial_counter_is_zero() {
-        XCTAssertEqual(appState.mouseMoveCounter, 0)
-    }
 
 }
